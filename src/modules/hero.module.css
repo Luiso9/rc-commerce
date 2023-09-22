@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+:root{
+      --background-dark: #2d3548;
+      --text-light: #5c5439;
+      --text-lighter: rgba(255,255,255,0.9);
+      --theme-col: #ea580c;
+      --pure-white: #fff;
+      --text-black: #5c5439;
+      --spacing-s: 8px;
+      --spacing-m: 16px;
+      --spacing-l: 24px;
+      --spacing-xl: 32px;
+      --spacing-xxl: 64px;
+      --width-container: 1200px;
+    }
+
+.title {
+	font-family: 'Lalezar', cursive;
+	font-size: 3.5rem;
+	font-weight: bold;
+	color: var(--theme-col);
+}
+
+.button {
+	display: flex-1;
+	flex: start;
+	align-self: start;
+	background-color: var(--theme-col);
+	border-radius: 12px;
+	width: 8rem;
+	height:  3rem;
+	font-size: 18px;
+	text-align: center;
+	color: var(--text-lighter);
+	margin: 65px 0 0 0;
+	padding: 6px 0 6px 0;
+	font-family: ;
+}
+
+.button { 
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    background: var(--theme-col); 
+}
+
+.button:hover { 
+    background: var(--text-black);
+}
+
+@media screen and (max-width: 480px) {
+	.button {
+		flex-direction: column;
+	}
+}
