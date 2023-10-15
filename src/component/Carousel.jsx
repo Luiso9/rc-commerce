@@ -3,7 +3,7 @@ import '../App.css';
 
 const ProductCard = ({ imageSrc, brand, productName, price, originalPrice }) => {
   function sendWhatsAppMessage(productTitle) {
-    const phoneNumber = '+62895363282117'; // nomer hp
+    const phoneNumber = ''; // nomer hp
     const message = `Saya ingin memesan produk ${productTitle}. Balas pesan saya untuk detail lebih lanjut.`; // pesan yang akan dikirim
     const encodedMessage = encodeURIComponent(message);
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
